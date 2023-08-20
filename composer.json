@@ -1,0 +1,22 @@
+{
+    "name": "alexandrecardoso/upload_intervention",
+    "autoload": {
+        "psr-4": {
+            "app\\":"app",
+            "core\\":"core"
+        },
+        "files": [
+            "app/library/functions/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alexandre Eduardo Cardoso",
+            "email": "68569575+aleduca@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "nikic/fast-route": "^1.3"
+    }
+}
